@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context="com.example.android.finalquizzproject.MainActivity">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/header" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/main_heading"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/Text_View_Style"
+                android:text="@string/disc."
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:hint="@string/edit_name" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/us_map" />
+
+            <TextView
+                style="@style/qStyle"
+                android:text="@string/q1" />
+
+            <RadioGroup
+                style="@style/radio_Style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16sp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/ans1_1"
+                    style="@style/radio_Style"
+                    android:text="@string/RB1_1"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <RadioButton
+                    android:id="@+id/ans1_2"
+                    style="@style/radio_Style"
+                    android:text="@string/RB1_2"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <RadioButton
+                    android:id="@+id/ans1_3"
+                    style="@style/radio_Style"
+                    android:text="@string/RB1_3" />
+
+                <RadioButton
+                    android:id="@+id/ans1_4"
+                    style="@style/radio_Style"
+                    android:text="@string/RB1_4" />
+
+            </RadioGroup>
+
+            <View
+                style="@style/View_Style"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                style="@style/qStyle"
+                android:text="@string/q2" />
+
+            <CheckBox
+                android:id="@+id/clinton"
+                style="@style/box_Style"
+                android:text="@string/Check_Answer_1" />
+
+            <CheckBox
+                style="@style/box_Style"
+                android:text="@string/Check_Answer_2" />
+
+            <CheckBox
+                android:id="@+id/Donald"
+                style="@style/box_Style"
+                android:text="@string/Check_Answer_3" />
+
+            <CheckBox
+                style="@style/box_Style"
+                android:text="@string/Check_Answer_4" />
+
+
+            <View
+                style="@style/View_Style"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                style="@style/qStyle"
+                android:text="@string/q3" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/bush" />
+
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/trump" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/obama" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="16sp"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="1"
+                    android:text="@string/Text_Ans"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/donald_trump"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="4"
+                    android:hint="@string/edit_ans" />
+            </LinearLayout>
+
+            <View
+                style="@style/View_Style"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                style="@style/qStyle"
+                android:text="@string/q4" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16sp"
+                android:layout_marginStart="16sp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/ans4_1"
+                    style="@style/radio_Style"
+                    android:text="@string/RB2_1"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <RadioButton
+                    android:id="@+id/ans4_2"
+                    style="@style/radio_Style"
+                    android:text="@string/RB2_2"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <RadioButton
+                    android:id="@+id/ans4_3"
+                    style="@style/radio_Style"
+                    android:text="@string/RB2_3"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <RadioButton
+                    android:id="@+id/ans4_4"
+                    style="@style/radio_Style"
+                    android:text="@string/RB2_4"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+            </RadioGroup>
+
+            <View
+                style="@style/View_Style"
+                android:background="@android:color/darker_gray" />
+
+
+            <TextView
+                android:id="@+id/results"
+                style="@style/Text_View_Style"
+                android:text="@string/disc.2" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="24dp"
+                android:onClick="SubmitQuiz"
+                android:text="@string/Submit_Button"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

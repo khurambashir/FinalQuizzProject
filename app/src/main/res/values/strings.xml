@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Final Quizz Project</string>
+    <string name="toast_one">Thanks for partcipation</string>
+    <string name="toast_two">Have a good day.</string>
+    <string name="main_heading">General Knowledge Test</string>
+    <string name="disc.">In this test you will be asked four questions, each question cary equal marks.</string>
+    <string name="disc.2">For Results please Submit your answers.</string>
+    <string name="q1">Question 1: How many States are in United States?</string>
+    <string name="q2">Question 2: Who were Presidential elections candidates of 2017 elctions?</string>
+    <string name="q3">Question 3: Who is the Current President of the United States?</string>
+    <string name="q4">Question 4: Which company Steve Jobs founded?</string>
+    <string name="edit_name">Please Enter Your Name Here</string>
+    <string name="RB1_1">100</string>
+    <string name="RB1_2">49</string>
+    <string name="RB1_3">50</string>
+    <string name="RB1_4">53</string>
+    <string name="RB2_1">Microsoft</string>
+    <string name="RB2_2">Facebook</string>
+    <string name="RB2_3">NetFlix</string>
+    <string name="RB2_4">Apple</string>
+    <string name="Check_Answer_1">Hillary Clinton</string>
+    <string name="Check_Answer_2">John Cena</string>
+    <string name="Check_Answer_3">Donald Trump</string>
+    <string name="Check_Answer_4">Bradly Cooper</string>
+    <string name="Submit_Button">Submit</string>
+    <string name="edit_ans">Please Type Your Answer Here</string>
+    <string name="Text_Ans">Answer :</string>
+</resources>
